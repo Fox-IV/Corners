@@ -5,7 +5,7 @@
 A tiny macOS menu bar app that rounds your display corners to match the
 rounded corners of notched MacBook Pro and MacBook Air screens.
 
-- **Notched MacBook** (2021 M1 Pro/Max and newer, M2+ Air): the panel already rounds the
+- **Notched MacBook**: the panel already rounds the
   top corners, so Corners rounds only the bottom two to match.
 - **Older MacBooks** with no notch: rounds all four corners.
 - **External displays**: rounds all four. Each display has its own settings.
@@ -27,7 +27,7 @@ It downloads the latest release into `/Applications` and opens it.
 <details>
 <summary>Downloading the .zip from Releases instead?</summary>
 
-Corners isn't notarized by Apple (that costs $99/year), so the first time you open it
+Corners isn't notarized by Apple, so the first time you open it
 macOS will say it *"could not verify"* the app. To open it anyway:
 
 1. Try to open Corners.app once and dismiss the warning.
